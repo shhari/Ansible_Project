@@ -1,0 +1,8 @@
+---
+- name: apache server
+  hosts: workstation.lab.example.com
+  tasks:
+  - name: done
+    yum:
+      name: vsftpd
+      state: latest
