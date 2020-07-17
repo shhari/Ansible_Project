@@ -1,6 +1,7 @@
 ---
 - name: apache server
   hosts: workstation.lab.example.com
+  become: true
   tasks:
   - name: done
     yum:
