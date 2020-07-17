@@ -6,4 +6,4 @@
   - name: done
     yum:
       name: vsftpd
-      state: absent
+      state: latest
