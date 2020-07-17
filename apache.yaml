@@ -2,7 +2,6 @@
 - name: apache server
   hosts: workstation.lab.example.com
   remote_user: root
-  become: true
   tasks:
   - name: done
     yum:
